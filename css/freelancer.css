@@ -6,6 +6,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  width: auto !important;
 }
 p {
   font-size: 20px;
@@ -502,9 +503,4 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
-}
-
-html, body {
-  width: auto !important;
-  overflow-x: hidden !important;
 }
