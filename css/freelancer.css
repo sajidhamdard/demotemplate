@@ -503,3 +503,8 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
